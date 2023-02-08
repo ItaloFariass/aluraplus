@@ -1,0 +1,197 @@
+/* CSS do Alura PLus ! */
+/* Cores e variaveis !! */
+
+:root{
+    --fundo: #00030C;
+    --branco-principal: #FFFFFF;
+    --azul-botao: #167BF7;
+    --cinza-sub-titulo: #F9F9F9;
+    --cinza-secundario: #C0C0C0;
+}
+
+body{
+    background-color: var(--fundo);
+    font-family: 'inter';
+    top: 0;  
+}
+
+.principal{
+    background-image: url(/src/image/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+
+.conteiner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.conteudo-principal{
+    flex-direction: column;
+    margin: 0 6em;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.titulo-principal{
+    color: var(--branco-principal);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 34px;
+}
+
+.combo-plus{
+    width: 348px;
+    margin: 1em 0 2rem 0 ;
+}
+
+.principal a{
+    display: block;
+    width: 512px;
+    padding: 28px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: var(--branco-principal);
+    transition: 0.5s all;
+}
+
+.assinar-12x{
+    background-color: var(--azul-botao);
+}
+
+.assinar-alura-plus{
+    border: solid var(--branco-principal);
+    border-width: 1px;
+}
+
+.observacao{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.plataformas{
+    display: flex;
+    align-items: center;
+    padding-left: 165px;
+    column-gap: 3rem;
+
+}
+
+.imagem-plataformas{
+    width: 488px;
+    height: 560px;
+}
+
+.conteudo-plataformas{
+    width: 588px;
+    
+}
+
+.titulo-conteudo{
+    color:var(--branco-principal);
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+}
+
+.sub-titulo-conteudo{
+    color: var(--cinza-sub-titulo);
+    line-height: 24px;
+
+
+}
+
+.assine{
+    display: flex;
+    align-items: center;
+    padding-left: 165px;
+    column-gap: 3rem;
+}
+
+.imagem-assine{
+    width: 496px;
+    height: 339px;
+}
+
+.botao-assine{
+    margin-top: 1rem;
+    padding: 28px;
+    border-radius: 8px;
+    background-color: var(--azul-botao);
+    color: var(--branco-principal);
+    cursor: pointer;
+
+}
+
+.imagem-baixar-cursos{
+    width: 547px;
+    height: 324px;
+}
+
+.dispositivos{
+    color: var(--branco-principal);
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulo-dispositivos{
+    font-size: 48px;
+
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.lista__item{
+    font-size: 32px;
+}
+
+
+footer{
+    width: 1200px;
+    margin: 125px auto 60px auto;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    transition: 0.3s all;
+}
+
+.links a:hover{
+    color: var(--azul-botao);
+}
+
+footer h2{
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    margin-bottom: 1rem;
+    line-height: 150%;
+}
+
+.principal a:hover{
+    background-color: #1a91e0c7;
+    transform:scale(1.1)
+
+}
